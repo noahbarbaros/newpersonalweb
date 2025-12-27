@@ -1,0 +1,271 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Projects - Noah Barbaros">
+  <main class="min-h-screen">
+    <!-- Header -->
+    <header class="px-6 py-8">
+      <div class="max-w-6xl mx-auto">
+        <!-- Mobile Navigation -->
+        <div class="block lg:hidden">
+          <div class="flex items-center justify-between">
+            <h1 class="text-xl font-medium">Noah Barbaros</h1>
+            <button id="mobile-menu-button" class="p-2">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+          
+          <!-- Mobile Menu (Hidden by default) -->
+          <div id="mobile-menu" class="hidden mt-4 pb-4 border-t border-gray-200">
+            <nav class="flex flex-col space-y-3 mt-4">
+              <a href="/" class="text-gray-600 hover:text-gray-900 transition-colors text-sm py-2">About</a>
+              <a href="/projects" class="text-gray-900 hover:text-gray-600 transition-colors text-sm py-2">Projects</a>
+              <a href="/essays" class="text-gray-600 hover:text-gray-900 transition-colors text-sm py-2">Essays</a>
+              <a href="/contact" class="text-gray-600 hover:text-gray-900 transition-colors text-sm py-2">Contact</a>
+            </nav>
+            <div class="flex space-x-4 mt-4 pt-4 border-t border-gray-100">
+              <a href="https://x.com/noahbaro" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition-colors text-xs">X</a>
+              <a href="https://github.com/noahbarbaros" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition-colors text-xs">GitHub</a>
+              <a href="https://linkedin.com/in/noah-barbaros" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition-colors text-xs">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden lg:grid grid-cols-3 items-center">
+          <nav class="flex space-x-8 justify-start">
+            <a href="/" class="text-gray-600 hover:text-gray-900 transition-colors">About</a>
+            <a href="/projects" class="text-gray-900 hover:text-gray-600 transition-colors">Projects</a>
+            <a href="/essays" class="text-gray-600 hover:text-gray-900 transition-colors">Essays</a>
+            <a href="/contact" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+          </nav>
+          <h1 class="text-2xl font-medium text-center">Noah Barbaros</h1>
+          <div class="flex space-x-4 justify-end">
+            <a href="https://x.com/noahbaro" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition-colors">X // Twitter</a>
+            <a href="https://github.com/noahbarbaros" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition-colors">GitHub</a>
+            <a href="https://linkedin.com/in/noah-barbaros" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition-colors">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="px-4 sm:px-6 py-12 sm:py-20">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl sm:text-4xl font-light mb-6 sm:mb-8">projects</h2>
+        <p class="text-base sm:text-lg text-gray-600 mb-8 sm:mb-12">
+          here is a quick rundown of the projects i've worked on. endlessly grateful for all the mentors and friends who have helped me along the way :)
+        </p>
+        
+        <hr class="border-gray-300 mb-12">
+        
+        <!-- What I'm working on right now -->
+        <div class="mb-12">
+          <h3 class="text-2xl font-medium mb-6">what i'm working on right now</h3>
+          <div class="space-y-4 text-lg">
+            <div class="flex items-start">
+              <span class="text-gray-500 mr-3">&gt;</span>
+              <span>
+                <strong>co-founder @ <a href="https://www.antifragility.io/" target="_blank" rel="noopener noreferrer" class="text-gray-900 hover:text-gray-600 underline transition-colors">Antifragility</a>:</strong> building a software-first agency turning startup helping businesses rank on both AI and search engines. working with YC startups, top podcasts, e-commerce brands, and major VC firms.
+              </span>
+            </div>
+            <div class="flex items-start">
+              <span class="text-gray-500 mr-3">&gt;</span>
+              <span>
+                <strong>intern @ <a href="https://wealthsimple.com/" target="_blank" rel="noopener noreferrer" class="text-gray-900 hover:text-gray-600 underline transition-colors">Wealthsimple</a>:</strong> recent high school grad taking a gap year to intern @ Wealthsimple, building great things with even greater people. currently building AI software + working in product.
+              </span>
+            </div>
+            <div class="flex items-start">
+              <span class="text-gray-500 mr-3">&gt;</span>
+              <span>
+                <strong>Habguard AI:</strong> working on ML models to help detect harmful algal blooms for water desalination plants.
+              </span>
+            </div>
+            <div class="flex items-start">
+              <span class="text-gray-500 mr-3">&gt;</span>
+              <span>
+                <strong>Forma:</strong> more on this soon -- a software project for an overlooked market.
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <hr class="border-gray-300 mb-12">
+        
+        <!-- What I've done in the past -->
+        <div class="mb-12">
+          <h3 class="text-2xl font-medium mb-6">what i've done in the past</h3>
+          <div class="space-y-4 text-lg">
+            <div class="flex items-start">
+              <span class="text-gray-500 mr-3">&gt;</span>
+              <span>
+                <strong>intern @ <a href="https://www.armilla.ai/" target="_blank" rel="noopener noreferrer" class="text-gray-900 hover:text-gray-600 underline transition-colors">Armilla AI</a>:</strong> Armilla AI is a YC-backed AI insurance startup with $5M+ raised, where i performed both their SEO + GEO.
+              </span>
+            </div>
+            <div class="flex items-start">
+              <span class="text-gray-500 mr-3">&gt;</span>
+              <span>
+                <strong>founder @ <a href="http://www.movitiative.com/" target="_blank" rel="noopener noreferrer" class="text-gray-900 hover:text-gray-600 underline transition-colors">MovitIative</a>:</strong> charity i launched for my childhood best friend. very proud to say it's became one of ontario's biggest youth-led clubs raising thousands every November for cancer research.
+              </span>
+            </div>
+            <div class="flex items-start">
+              <span class="text-gray-500 mr-3">&gt;</span>
+              <span>
+                <strong>builder @ <a href="https://www.coventure.app/" target="_blank" rel="noopener noreferrer" class="text-gray-900 hover:text-gray-600 underline transition-colors">CoVenture</a>:</strong> first-ever network for entrepreneurial teens to connect and build cool stuff. hustled my way to 100+ users and came close to partnering with some universities.
+              </span>
+            </div>
+            <div class="flex items-start">
+              <span class="text-gray-500 mr-3">&gt;</span>
+              <span>
+                <strong>intern @ Built for Impact:</strong> in high school i didn't know what i liked in startups, or how they would work. so i joined a university startup as an intern where i scaled outreach from 0 to 10k+ users in less than 2 weeks.
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-16 text-lg text-gray-600">
+          <p class="mb-4">
+            i've built way too many projects to count, from consulting projects for Samsung to late-night hackathon experiments
+          </p>
+          <p class="mb-4">
+            this isn't everything i've made, just a small selection of my favourite recent work. i want to keep this space simple.
+          </p>
+          <p>
+            if you're curious about more, you can explore my full portfolio <a href="https://noahbarbaros.notion.site/Hey-I-m-Noah-Here-s-What-I-ve-Built-23db2351a7e480a4b70ae3e2d93e030e" target="_blank" rel="noopener noreferrer" class="text-gray-900 hover:text-gray-600 underline transition-colors">here</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="border-t border-gray-200 py-16 sm:py-24 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 sm:gap-16">
+          <!-- Contact Info -->
+          <div>
+            <h2 class="text-3xl font-light mb-8">get in touch</h2>
+            <p class="text-lg leading-relaxed mb-12">
+              i love meeting new people. if at all, you have any questions, comments, or just wanna chat, don't be a stranger -- drop me a line!
+            </p>
+            
+            <div class="space-y-6">
+              <div class="flex items-center space-x-4">
+                <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                  <svg class="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-900">email</p>
+                  <p class="text-gray-600">noah@barbaros.ca</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center space-x-4">
+                <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                  <svg class="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-900">X // Twitter</p>
+                  <p class="text-gray-600">@noahbaro</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center space-x-4">
+                <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                  <svg class="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-900">GitHub</p>
+                  <p class="text-gray-600">github.com/noahbarbaros</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center space-x-4">
+                <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                  <svg class="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 c0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-900">LinkedIn</p>
+                  <p class="text-gray-600">linkedin.com/in/noah-barbaros</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Contact Form -->
+          <div class="bg-gray-50 rounded-lg p-8 border border-gray-200">
+            <h3 class="text-2xl font-medium mb-6">send a message</h3>
+            <form action="https://formspree.io/f/myzpwvaj" method="POST" class="space-y-6">
+              <div>
+                <label for="name" class="block text-sm font-medium mb-2">name</label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  placeholder="your name" 
+                  required
+                  class="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+              </div>
+              
+              <div>
+                <label for="email" class="block text-sm font-medium mb-2">email</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  placeholder="your@email.com" 
+                  required
+                  class="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+              </div>
+              
+              <div>
+                <label for="message" class="block text-sm font-medium mb-2">message</label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  rows="4" 
+                  placeholder="your message..." 
+                  required
+                  class="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+                ></textarea>
+              </div>
+              
+              <button 
+                type="submit" 
+                class="w-full bg-gray-900 hover:bg-gray-800 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200"
+              >
+                send message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (mobileMenuButton && mobileMenu) {
+      mobileMenuButton.addEventListener('click', function() {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  });
+</script>
